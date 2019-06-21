@@ -1,0 +1,84 @@
+/*font-family: 'Saira', sans-serif;
+font-family: 'Saira Condensed', sans-serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    position: relative;
+    height: 100vh;
+    background-color: #29a6dc;
+    overflow: hidden;
+
+}
+
+header img {
+    position: absolute;
+    height: 50%;
+    bottom: 0;
+    right: 0;
+}
+
+header div.welcome {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    left: 5%;
+    text-align: center;
+    font-family: 'Saira Condensed', sans-serif;
+    font-weight: bold;
+    font-size: 40px;
+    color: white;
+    text-transform: uppercase;
+}
+
+
+header h1 {
+    margin-top: 15px;
+    font-size: 20px;
+  
+}
+
+header h2 {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+header button {
+    font-family: 'Saira', sans-serif;
+    font-weight: 300;
+    line-height: 32px;
+    font-size: 12px;
+    padding: 0 20px;
+    text-transform: uppercase;
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+}
+
+@media (orientation: landscape) {
+    header img {
+    position: absolute;
+    height: 80%;
+    bottom: 0;
+    right: -10%;
+}
+    
+    header div.welcome {
+        top: 15%;
+        left: 7%;
+        right: 48%;
+    }
+    
+    header button {
+        margin-top: 40px;
+    }
+
+}
+
+section {
+    min-height: 100vh;
+}
